@@ -1,0 +1,52 @@
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border: radius 15px ;
+    border-radius: 14%;
+
+
+  }
+.form-floating
+  {
+    width: 320px;
+    border: 2px solid gray;
+    margin: 0;
+    padding: 16px;
+    border-radius: 10%;
+    align-self: center ;
+  }
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: max-content;
+    border-radius: 10%;
+    display: inline-block;
+
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+label{
+    font-weight: bold;
+    text-align: left;
+    display: inline-block;
+
+}
+
+main {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
